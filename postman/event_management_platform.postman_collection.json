@@ -21,7 +21,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/events"
+				"url": "https://event-management-platform-chi.vercel.app/events"
 			},
 			"response": []
 		},
@@ -39,7 +39,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/events/eeb51d21-3a67-4d1a-89cc-04a747a5aa09"
+				"url": "https://event-management-platform-chi.vercel.app/events/3734314b-2dbb-4e5c-a14a-7ae987fb3fa3"
 			},
 			"response": []
 		},
@@ -48,7 +48,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/events/2439595f-298c-4980-9124-024798371ee0"
+				"url": "https://event-management-platform-chi.vercel.app/events/3734314b-2dbb-4e5c-a14a-7ae987fb3fa3"
 			},
 			"response": []
 		},
@@ -57,7 +57,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/events"
+				"url": "https://event-management-platform-chi.vercel.app/events"
 			},
 			"response": []
 		},
@@ -66,7 +66,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:3000/events/06d02ee6-000b-4da0-8349-c5c928a96f80"
+				"url": "https://event-management-platform-chi.vercel.app/events/3734314b-2dbb-4e5c-a14a-7ae987fb3fa3"
 			},
 			"response": []
 		}

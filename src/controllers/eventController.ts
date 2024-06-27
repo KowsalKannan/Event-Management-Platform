@@ -51,9 +51,7 @@ export const deleteEvent = (req: Request, res: Response) => {
       }
   
       const deletedEvent = events.splice(eventIndex, 1)[0];
-      console.log("Deleted Event:", deletedEvent);
-  
-      return sendResponse(req, res, 204, 'Event deleted successfully');
+      return sendResponse(req, res, 200, 'Event deleted successfully', deletedEvent);
     } catch (error) {
       return sendErrorResponse(req, res, 500, error);
     }

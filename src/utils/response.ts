@@ -16,8 +16,6 @@ export const sendResponse = (req: Request, res: Response, code?: number, message
     if (data === "error") {
       response.error_code = errorCode || "AU101";
     }
-
-    console.log("SEJOEJE", statusCode , response)
     return res.status(statusCode).send(response);
   } catch (error) {
     console.log("sendResponse", error);
@@ -33,7 +31,6 @@ export const sendErrorResponse = async (req: Request, res: Response, code?: numb
     };
     message.errorCode = error?.errorCode || "AU101";
     if (Object?.keys(log)?.length) {
-      // For recording the error logs
       console.error(log);
     }
     return res.status(statusCode).send({
